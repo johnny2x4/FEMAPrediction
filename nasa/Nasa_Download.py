@@ -15,7 +15,7 @@ for line in f:
     result = requests.get(line.strip())
     try:
         result.raise_for_status()
-        g = open(filename,'wb')
+        g = open(filename.strip(),'wb')
         g.write(result.content)
         g.close()
         print('contents of URL written to '+filename)
