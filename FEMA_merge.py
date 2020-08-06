@@ -18,7 +18,7 @@ def clean_info(dataframe):
 
 df_1 = clean_info(disaster_declar_summ)
 
-
+# Merge info from DisasterDeclarationSummaries and FemaWebDisasterSummaries
 merge2 = pd.merge(df_1,web_disaster_summ, on = 'disasterNumber', how = 'inner')
 
 merge2
