@@ -1,10 +1,5 @@
-import requests
-import feedparser
-from pprint import pprint
 import pandas as pd
-from pandas.io.json import json_normalize
-import io
-import sqlite3
+
 
 url_1 = 'https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv'
 url_2 = 'https://www.fema.gov/api/open/v1/FemaWebDisasterSummaries.csv'
