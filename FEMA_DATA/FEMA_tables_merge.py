@@ -22,4 +22,4 @@ web_disaster_summ
 
 #Merge the 2 dataframes on disasterNumber
 merge2 = pd.merge(df_1,web_disaster_summ, on = 'disasterNumber', how = 'inner')
-merge2
+print(merge2)
