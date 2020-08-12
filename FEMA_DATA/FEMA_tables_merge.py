@@ -11,8 +11,8 @@ def clean_info(dataframe):
     clean_2= clean[florida_state]
     return clean_2
 
-    df_1 = clean_info(disaster_declar_summ)
-    df_1
+df_1 = clean_info(disaster_declar_summ)
+df_1
 
 #FEMA WEB Disaster Summaries
 web_disaster_summ = pd.read_csv('../FEMA_DATA/FemaWebDisasterSummaries.csv')
